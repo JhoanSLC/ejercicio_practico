@@ -7,13 +7,15 @@ public class Producto {
     private double price;
     private int stock;
 
+    public Producto(){}
+
     public Producto(String codigo, String nombre, double price, int stock) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.price = price;
         this.stock = stock;
     }
-    
+
     public String getCodigo() {
         return codigo;
     }
